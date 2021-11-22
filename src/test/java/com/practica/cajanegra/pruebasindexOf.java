@@ -1,13 +1,13 @@
 package com.practica.cajanegra;
+
 import com.cajanegra.SingleLinkedListImpl;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 import java.util.NoSuchElementException;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class pruebasindexOf {
     @DisplayName("Test indexOf valor igual al mínimo")

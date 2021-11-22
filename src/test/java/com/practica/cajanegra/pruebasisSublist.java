@@ -1,11 +1,11 @@
 package com.practica.cajanegra;
-import com.cajanegra.SingleLinkedListImpl;
 
+import com.cajanegra.SingleLinkedListImpl;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import org.junit.jupiter.api.DisplayName;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class pruebasisSublist {
     @DisplayName("Test isSublist con sublista presente y valor de T igual al mínimo")

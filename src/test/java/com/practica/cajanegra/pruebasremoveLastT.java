@@ -1,13 +1,14 @@
 package com.practica.cajanegra;
+
 import com.cajanegra.EmptyCollectionException;
 import com.cajanegra.SingleLinkedListImpl;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.NoSuchElementException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class pruebasremoveLastT {
     @DisplayName("Test removeLast(T) valor igual al mínimo presente una vez en la lista en primera posición")

@@ -1,10 +1,11 @@
 package com.practica.cajanegra;
-import com.cajanegra.SingleLinkedListImpl;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import com.cajanegra.SingleLinkedListImpl;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class pruebasisEmpty {
     @DisplayName("Test isEmpty con lista vacía")
